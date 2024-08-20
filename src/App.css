@@ -1,0 +1,109 @@
+*{
+  background-color: #FFF2F9;
+  font-family: "Quicksand", Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.logo{
+  padding: 10px;
+  padding-left: 100px;
+  height:150px;
+  width: 200px;
+}
+
+.cabeçalho{
+  text-decoration: none;
+  background-color:#B8404C;
+  display: flex;
+  justify-content: flex-end;
+  padding: 30px;
+  font-size: 1.7rem;
+}
+
+.cabeçalho a{
+  color:#ffffff;
+  text-decoration: none;
+  background-color:#B8404C;
+  margin-right: 30px;
+}
+
+.img{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.img .texto{
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  align-items: center;
+  background-color: #00000000;
+  margin: auto;
+}
+
+.img .texto h1{
+  font-size: 5rem;
+  background-color: #00000000;
+  color: #800020;
+}
+
+.img .texto h4{
+  font-size: 2rem;
+  background-color: #00000000;
+  color: #800020;
+}
+
+.comidas h2{
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin: 50px;
+  margin-top: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.comidas h2::after{
+  content: "";
+  width: 480px;
+  height: 5px;
+  background-color: #B68F40;
+  border-radius: 12px;
+}
+
+.comidas{
+  margin: 50px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.comidas2 img{
+  flex-direction: column;
+  width: 360px;
+  height: 270px;
+  justify-content: center;
+}
+
+.depoimentos{
+  padding-top: 90px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+
+.depoimentos h2{
+  display: flex;  
+  justify-content: center;
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: white;
+  background-color: #00000000;
+  position: absolute;
+  right: 50%;
+  left: 50%;
+}
