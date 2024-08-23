@@ -2,6 +2,7 @@
   background-color: #FFF2F9;
   font-family: "Quicksand", Arial, Helvetica, sans-serif;
   margin: 0;
+  background-color: #00000000;
 }
 
 .logo{
@@ -31,28 +32,24 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  
 }
 
-.img .texto{
-  padding: 50px;
-  display: flex;
-  flex-direction: row;
+.img h1{
+  padding: 80px;
   position: absolute;
-  align-items: center;
-  background-color: #00000000;
-  margin: auto;
-}
-
-.img .texto h1{
   font-size: 5rem;
-  background-color: #00000000;
   color: #800020;
+  top: 320px;
+  right: 60px;
 }
 
-.img .texto h4{
+.img h4{
+  padding: 80px;
+  position: absolute;
   font-size: 2rem;
-  background-color: #00000000;
   color: #800020;
+  top: 700px;
 }
 
 .comidas h2{
@@ -80,11 +77,44 @@
   flex-direction: column;
 }
 
-.comidas2 img{
+.cardapio{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cardapio button{
+  color:#B68F40;
+  border-color: #B68F40;
+  border-radius: 10px;
+  margin: 20px 70px;
+  padding: 20px 50px;
+  cursor: pointer;
+  font-size: larger;
+}
+
+.cardapio img{
+  border-radius: 15px;
+}
+
+.comidas1{
+  display: flex;
+  flex-direction: column;
+}
+
+.comidas2{
+  display: flex;
   flex-direction: column;
   width: 360px;
   height: 270px;
-  justify-content: center;
+}
+
+.comidas3{
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  height: 270px;
 }
 
 .depoimentos{
@@ -94,16 +124,118 @@
   flex-direction: column;
 }
 
-
-
 .depoimentos h2{
   display: flex;  
   justify-content: center;
   font-size: 2.5rem;
   font-weight: 600;
   color: white;
-  background-color: #00000000;
   position: absolute;
   right: 50%;
   left: 50%;
+}
+
+.criticas{
+  display: flex;
+  flex-direction: row;
+  padding: 0px 40px;
+}
+
+.criticas div{
+  background-color: #B8404C;
+  padding: 60px;
+  margin: 20px;
+  border-radius: 13px;
+  text-align: center;
+  color:#FFF2F9;
+  font-size: large;
+}
+
+.criticas p{
+  background-color: #B8404C;
+  margin: 5px;
+}
+
+.criticas h3{
+  background-color: #B8404C;
+}
+
+.pa{
+  text-align: center;
+  display: block;
+  margin: 3em 0;
+  font-size: 2.5rem;
+  padding: 30px;
+  color: #800020;
+  font-weight: 600;
+}
+
+.mapa{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 4em;
+  background-image: linear-gradient(to right, #800020, #CF525F);
+}
+
+.mapa h2{
+  color: #FFF2F9;
+  font-size: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.mapa h2::after{
+  content: "";
+  width: 480px;
+  height: 5px;
+  background-color: #B68F40;
+  border-radius: 12px;
+}
+
+.mapa img{
+  height: 300px;
+}
+
+.rodape1{
+  background-color: #CFB181;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 80px;
+}
+
+ul{
+  list-style-type: none;
+  font-size: large;
+  font-weight: 500;
+  color: #800020;
+}
+
+.rodape2{
+  color: #FFF2F9;
+  background-color: #800020;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-size: larger;
+}
+
+.pj{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.pj img{
+  height: 50px;
+  margin-left: 5px;
+}
+
+.icon img{
+  margin: 15px;
+  height: 40px;
+  width: 40px;
 }
